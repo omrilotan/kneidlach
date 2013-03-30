@@ -1,0 +1,13 @@
+ErrorDocument 401 /
+ErrorDocument 403 /
+ErrorDocument 404 /
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) /
+#RewriteRule (.*fckeditor.*) $1 [L]
+ 
+</IfModule>
