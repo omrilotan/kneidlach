@@ -22,21 +22,23 @@
 	</head>
 	<body>
 <div class="wrap">
-	<div class="center">
-		<a style="display:inline-block; padding:2px 5px 2px 20px; background:url(https://twitter.com/favicons/favicon.ico) left center no-repeat; color:#0080A6; text-decoration:none;" href="http://twitter.com/intent/tweet?text=%D7%A7%D6%B0%D7%A0%D6%B5%D7%99%D7%99%D7%93%D6%B3%D7%9C%D6%B6%D7%A2%D7%9A%D6%B0%2C+%D7%9C%D7%A7%D7%A8%D7%95%D7%90+%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA+%D7%A2%D7%9D+%D7%A7%D6%B4%D7%99%D7%A0%D6%B0%D7%93%D6%B5%D6%BC%D7%A2%D7%9C&url=http%3A%2F%2Fkneidlach.com">צְוֲויְצֵעּר</a>
-		&mdash;
-		<a style="display:inline-block; padding:2px 20px 2px 5px; background:url(http://facebook.com/favicon.ico) right center no-repeat; color:#3B5998; text-decoration:none;" href="http://www.facebook.com/sharer.php?u=http://kneidlach.info">מֵינֵעּבּוּק</a>
-	</div>
-	<h1>קְנֵיידֳלֶעךְ, לקרוא בעברית עם קִינְדֵּעל</h1>
+	<header role="banner">
+		<div class="center">
+			<a style="display:inline-block; padding:2px 5px 2px 20px; background:url(https://twitter.com/favicons/favicon.ico) left center no-repeat; color:#0080A6; text-decoration:none;" href="http://twitter.com/intent/tweet?text=%D7%A7%D6%B0%D7%A0%D6%B5%D7%99%D7%99%D7%93%D6%B3%D7%9C%D6%B6%D7%A2%D7%9A%D6%B0%2C+%D7%9C%D7%A7%D7%A8%D7%95%D7%90+%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA+%D7%A2%D7%9D+%D7%A7%D6%B4%D7%99%D7%A0%D6%B0%D7%93%D6%B5%D6%BC%D7%A2%D7%9C&url=http%3A%2F%2Fkneidlach.com">צְוֲויְצֵעּר</a>
+			&mdash;
+			<a style="display:inline-block; padding:2px 20px 2px 5px; background:url(http://facebook.com/favicon.ico) right center no-repeat; color:#3B5998; text-decoration:none;" href="http://www.facebook.com/sharer.php?u=http://kneidlach.info">מֵינֵעּבּוּק</a>
+		</div>
+		<h1>קְנֵיידֳלֶעךְ, לקרוא בעברית עם קִינְדֵּעל</h1>
+	</header>
 	<div class="seperator"></div>
 	<div class="half">
-		<h3>read hebrew books on the kindle</h3>
+		<h3>read Hebrew books on the kindle</h3>
 		<p class="center">&hellip;</p>
 		<p>
 Hebrew ebooks are currently sold as epub files<br />
 When opened via the <a href="http://amazon.com/kindleformat/kindlepreviewer">Amazon Kindle emulator</a> it produces a mobi file that is readable on the kindle as is.<br />
 You can also convert the file using the command line tool <a href="http://amazon.com/kindleformat/kindlegen">KindleGen</a>.<br />
-* do not tranfer the files via whispernet
+* do not transfer the files via whispernet
 		</p>
 		<div class="spacer"></div>
 	</div>
@@ -212,7 +214,7 @@ You can also convert the file using the command line tool <a href="http://amazon
 		<p>5. שים אותו על הקינדל שלך<br />
 		* אין להעביר את הקבצים בוויספרנט</p>
 	</div>
-	
+
 	<div class="seperator"></div>
 	
 	<div id="FBalbum">		
@@ -223,181 +225,48 @@ You can also convert the file using the command line tool <a href="http://amazon
 			<a href="http://www.facebook.com/media/set/?set=a.175687492568808">אלבום פייסבוק</a>
 		</div>
 	</div>
+
+	<div class="seperator"></div>
+	<div class="half">
+		<p>Not happy with your Hebrew fonts? Here's how you can install any font on your device:</p>
+		<ol>
+			<li>Add a new folder on the device root named "fonts"</li>
+			<li>add fonts (ttf or otf files), families should be named like so:
+				<ul>
+					<li>FONTNAME-Regular</li>
+					<li>FONTNAME-Italic</li>
+					<li>FONTNAME-Bold</li>
+					<li>FONTNAME-ItalicBold</li>
+				</ul>
+			</li>
+			<li>add an empty file to your root folder named "USE_ALT_FONTS". no extension</li>
+			<li>Reboot your device</li>
+		</ol>
+		<p>* notice: the first Hebrew font you'll install will become system font for Hebrew</p>
+	</div>
+	<div class="half rtl">
+		<p>לא מרוצה מהגופנים בעברית? הנה דרך להתקין גופנים נוספים על המכשיר:</p>
+		<ol>
+			<li>הוסף לroot של המעשיר תיקייה בשם "fonts"</li>
+			<li>הוסף פונטים (ttf או otf) במשפחות ע"פ הסכמה הבאה:
+				<ul>
+					<li>FONTNAME-Regular</li>
+					<li>FONTNAME-Italic</li>
+					<li>FONTNAME-Bold</li>
+					<li>FONTNAME-ItalicBold</li>
+				</ul>
+			</li>
+			<li>הוסף קובץ ריק לroot בשם "USE_ALT_FONTS". ללא סיומת</li>
+			<li>אתחל את המכשיר</li>
+		</ol>
+		<p>* שים לב: הפונט העברי הראשון שתתקין על המכשיר יהפוך להיות פונט מערכת לשפה העברית</p>
+	</div>
 	
 	<div class="seperator"></div>
 	<div class="center">
 		<a class="button" href="https://github.com/watermelonbunny/kneidlach">Suggest Changes on Github</a>
 	</div>
 </div>
-		<script>
-(function () {
-    // use feature detect to branch this handler
-    if (typeof window.addEventListener === "function") {
-        addListener = function (ele, evt, func) {
-            if (typeof evt === "string") {
-                ele.addEventListener(evt, func);
-            } else {
-                for (var i = 0, loops = evt.length; i < loops; i++) {
-                    ele.addEventListener(evt[i], func);
-                }
-            }
-            return ele;
-        };
-        removeListener = function (ele, evt, func) {
-            if (typeof evt === "string") {
-                ele.removeEventListener("on" + evt, func);
-            } else {
-                for (var i = 0, loops = evt.length; i < loops; i++) {
-                    ele.removeEventListener("on" + evt[i], func);
-                }
-            }
-            return ele;
-        };
-    } else if (typeof document.attachEvent === "function") {
-        addListener = function (ele, evt, func) {
-            if (typeof evt === "string") {
-                ele.attachEvent("on" + evt, func);
-            } else {
-                for (var i = 0, loops = evt.length; i < loops; i++) {
-                    ele.attachEvent("on" + evt[i], func);
-                }
-            }
-            return ele;
-        };
-        removeListener = function (ele, evt, func) {
-            if (typeof evt === "string") {
-                ele.detachEvent(evt, func);
-            } else {
-                for (var i = 0, loops = evt.length; i < loops; i++) {
-                    ele.detachEvent(evt[i], func);
-                }
-            }
-            return ele;
-        };
-    } else {
-        addListener = function (ele, evt, func) {
-            if (typeof evt === "string") {
-                ele["on" + evt] = func;
-            } else {
-                for (var i = 0, loops = evt.length; i < loops; i++) {
-                    ele["on" + evt[i]] = func;
-                }
-            }
-            return ele;
-        };
-        removeListener = function (ele, evt, func) {
-            if (typeof evt === "string") {
-                ele["on" + evt] = null;
-            } else {
-                for (var i = 0, loops = evt.length; i < loops; i++) {
-                    ele["on" + evt[i]] = null;
-                }
-            }
-            return ele;
-        };
-    }
-})();
-// open links in a new tab
-var convertAHref = function (element) {
-	element = element || document;
-	var a = element.getElementsByTagName("a"),
-		i = a.length;
-	while (i--){
-		(function (ele) {
-			addListener(ele, "click", function (evt) {
-				evt = evt || window.event;
-				window.open(ele.href, "external_link");
-				evt.returnValue = false;
-				evt.cancelBubble = true;
-				evt.preventDefault();
-				evt.stopPropagation();
-				return false;
-			});
-		})(a[i]);
-	}
-};
-convertAHref(document);
-// facebook image album
-var facebookAlbum = function (element, options) {
-	var defaults = {
-			"albumID": 175687492568808,
-			"limit": 100,
-			"callback": "facebookAlbumInit",
-			"overlayClassName": "FBImageOverlay",
-			"previewClassName": "FBpreview"
-		},
-		element = typeof element === "string" ? document.querySelector(element) : element,
-		script = document.createElement("script"),
-		fragment = document.createDocumentFragment(),
-		image,
-		a,
-		style = document.createElement("style"),
-		overlay = document.createElement("div"),
-		enlarge;
-	for (var key in options) {
-		defaults[key] = options[key];
-	}
-	script.src = "https://graph.facebook.com/"+defaults.albumID+"/photos?limit="+defaults.limit+"&callback="+defaults.callback;
-	document.body.appendChild(script);
-	
-	style.innerHTML = "."+defaults.previewClassName+"{vertical-align:top;cursor:pointer;}" +
-					  "."+defaults.overlayClassName+" h3{background:rgba(255,255,255,.7);}" +
-					  "."+defaults.overlayClassName+" img{max-height:90%;border:3px solid white;box-shadow:0 0 10px black;}" +
-					  "."+defaults.overlayClassName+"{display:none;position:fixed;top:0;left:0;width:100%;height:100%;text-align:center;background:rgba(0,0,0,.7);}";
-	document.head.appendChild(style);
-	style = null;
-	
-	overlay.className = defaults.overlayClassName;
-	addListener(overlay, "click", function () {
-		overlay.style.display = "none";
-		overlay.innerHTML = "";
-	});
-	document.body.appendChild(overlay);
-	
-	enlarge = function (data) {
-		var title = document.createElement("h3"),
-			name = data.name ? data.name : data.from.name,
-			node = document.createTextNode(name),
-			img = document.createElement("img");					
-		title.appendChild(node);
-		overlay.appendChild(title);
-		img.className = defaults.imageClassName;
-		img.src = data.source;
-		overlay.style.display = "block";
-		overlay.appendChild(img);
-	};
-	
-	window[defaults.callback] = function (result) {
-		if (result.error) {
-			console.log(result.error.message)
-			return;
-		}
-		var i = result.data.length;
-		while (i--) {
-			(function (num) {
-				image = document.createElement("img");
-				a = document.createElement("a");
-				image.src = result.data[num].picture;
-				image.className = defaults.previewClassName;
-				addListener(a, "click", function () {
-					enlarge(result.data[num]);
-				});
-				//a.href = result.data[num].link;
-				a.appendChild(image);
-				fragment.appendChild(a);
-				a = null;
-				image = null;
-			})(i);
-		}
-		element.appendChild(fragment);
-		fragment = null;
-		element.style.textAlign = "center";
-	};
-};
-facebookAlbum("#FBalbum", {
-	"albumID": 175687492568808,
-	"callback": "facebookAlbumInit"
-});
-		</script>
+		<script src="assets/scripts.js"></script>
 	</body>
 </html>

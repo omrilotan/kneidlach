@@ -33,6 +33,29 @@ ul, ol {
 	max-width:900px;
 	margin:0 auto;
 }
+nav {
+    display:block;
+    width:100%;
+    clear:both;
+    margin:0 0 1em 0;
+}
+nav span,
+nav a {
+    display:block;
+    width:50%;
+    float:left;
+    text-align:center;
+}
+nav a {
+    background:white;
+    text-decoration:none;
+}
+nav span,
+nav a:hover {
+    background:#666;
+    color:white;
+    text-shadow:0 1px 0 black;
+}
 table {
 	width:100%;
 	border-collapse:collapse;
