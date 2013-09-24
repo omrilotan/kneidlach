@@ -1,6 +1,26 @@
+@font-face {
+    font-family: "Alef";
+    src: url(Alef-bold.eot);
+    src: url(Alef-bold.eot?#iefix) format("embedded-opentype"),
+         url(Alef-bold.woff) format("woff"),
+         url(Alef-bold.ttf) format("truetype"),
+         url(Alef-bold.svg#alefbold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Alef";
+    src: url(Alef-regular.eot);
+    src: url(Alef-regular.eot?#iefix) format("embedded-opentype"),
+         url(Alef-regular.woff) format("woff"),
+         url(Alef-regular.ttf) format("truetype"),
+         url(Alef-regular.svg#alefregular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
 * { margin:0; padding:0; border:0; }
 body {
-	font:normal 100%/200% Georgia, Palatino Linotype, Book Antiqua, Palatino, serif;
+	font:normal 100%/200% "Alef", Georgia, Palatino Linotype, Book Antiqua, Palatino, serif;
 	background:#f3f3f3;
 	color:#454545;
 	text-shadow:0 1px 0 #fff;
